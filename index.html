@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dikshant Khurana</title>
+        <link
+            rel="shortcut icon"
+            href="assets/images/favicon.ico"
+            type="image/x-icon"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="user">
+                <img src="assets/images/Pic.jpg" alt="" />
+                <h3>Dikshant Khurana</h3>
+                <p>front-end developer</p>
+            </div>
+
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#portfolio">projects</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </header>
+
+        <!-- header section ends -->
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <!-- theme toggler  -->
+
+        <div id="theme-toggler" class="fas fa-moon"></div>
+
+        <!-- home section starts  -->
+
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Dikshant Khurana</h3>
+                <p>i am a front-end developer</p>
+                <a
+                    href="/assets/documents/Resume_DikshantK.pdf"
+                    target="_blank"
+                    class="btn"
+                    >Resume</a
+                >
+            </div>
+
+            <div class="share">
+                <a
+                    href="https://www.instagram.com/khurana_dikshant/"
+                    target="_blank"
+                    class="fab fa-instagram"
+                ></a>
+                <a
+                    href="https://www.linkedin.com/in/dikshantkhurana/"
+                    target="_blank"
+                    class="fab fa-linkedin"
+                ></a>
+                <a
+                    href="https://github.com/DkRadhey?tab=repositories"
+                    class="fab fa-github"
+                    target="_blank"
+                ></a>
+            </div>
+        </section>
+
+        <!-- home section ends -->
+
+        <!-- about section starts  -->
+
+        <section class="about" id="about">
+            <h1 class="heading"><span>about</span> me</h1>
+
+            <div class="row">
+                <div class="content">
+                    <p>
+                        A budding enthusiastic Web Developer, passionate about
+                        JavaScript. I am self-taught Frontend Developer, with a
+                        positive attitude and ready to face new challenges to
+                        learn and explore new information has been my passion
+                        since always.
+                    </p>
+                    <a href="#contact" class="btn">contact me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section ends -->
+
+        <!-- portfolio section starts  -->
+
+        <section class="portfolio" id="portfolio">
+            <h1 class="heading">my <span>Projects</span></h1>
+
+            <div class="box-container">
+                <a
+                    href="https://dkradhey.github.io/Prime-Video-Clone/"
+                    target="_blank"
+                >
+                    <div class="box">
+                        <img src="/assets/images/p1-img1.png" alt="" />
+                        <div class="content">
+                            <h3>Amazon Prime Clone</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a
+                    href="https://dkradhey.github.io/Sliding-Puzzle/"
+                    target="_blank"
+                >
+                    <div class="box">
+                        <img src="/assets/images/p2-img1.png" alt="" />
+                        <div class="content">
+                            <h3>Sliding Puzzle</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/DkRadhey/DASH" target="_blank">
+                    <div class="box">
+                        <img src="/assets/images/p3-img1.png" alt="" />
+                        <div class="content">
+                            <h3>DASH (ecommerce-website)</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a
+                    href="https://dkradhey.github.io/Chips-website/"
+                    target="_blank"
+                >
+                    <div class="box">
+                        <img src="/assets/images/p4-img1.png" alt="" />
+                        <div class="content">
+                            <h3>Chips Website</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- portfolio section ends -->
+
+        <!-- contact section starts -->
+
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>contact</span> me</h1>
+
+            <form action="">
+                <input
+                    type="text"
+                    placeholder="your name"
+                    id="name"
+                    class="box"
+                />
+                <input
+                    type="email"
+                    placeholder="your email"
+                    id="emailid"
+                    class="box"
+                />
+                <input
+                    type="text"
+                    placeholder="subject"
+                    id="subject"
+                    class="box"
+                />
+                <textarea
+                    name=""
+                    class="box"
+                    placeholder="your message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                ></textarea>
+                <input type="submit" value="send message" class="btn" />
+            </form>
+        </section>
+
+        <script src="index.js"></script>
+    </body>
+</html>
