@@ -146,7 +146,7 @@ section {
     text-align: center;
     color: var(--black);
     background: var(--bg-color);
-    /* display: none; */
+    display: none;
 }
 
 #menu-btn:hover {
